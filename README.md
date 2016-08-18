@@ -10,7 +10,7 @@ Cycling '74 > java > classes
 
 Then just create a new <i><b>mxj projTimer</b></i> object.
 
-For absolute accuracy I would recommend making a template that has <i><b>mxj projTimer</b></i> as a default object for more accurate timing. 
+For absolute accuracy I would recommend making a template that has <i><b>mxj projTimer</b></i> as a default object since time keeping will only occur when <i><b>mxj projTimer</b></i> has been instantiated. 
 
 <ul>
   <li>Inlet 1 accepts a bang which will output the total time <i><b>mxj projTimer</b></i> has been instantiated in the format hours:minutes:seconds:millis to the Max Window and out of outlet 1</li>
